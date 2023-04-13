@@ -1,0 +1,37 @@
+/* Background and title */
+body {
+   background-image:url(../mạng/anh-background-cuc-dep_110341116.jpg);
+   
+  }
+
+  /*upnav  */
+.upnav{
+  background-color: aqua;
+  padding: 14px 16px;
+  font-size: 17px;
+  
+}
+.botnav{ 
+  background-color: lightgreen;
+  padding: 14px 16px;
+  font-size: 17px;
+
+}
+.default{
+  background-color: gray;
+  border: none;
+  color: lightsalmon;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.info{
+  background-color: aquamarine;
+  font-size: 17px;
+  color:red;
+  font-family: 'Times New Roman', Times, serif;
+}
