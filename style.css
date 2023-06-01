@@ -1,22 +1,38 @@
-/* Background and title */
-body {
-   background-image:url(../mạng/anh-background-cuc-dep_110341116.jpg);
-   
-  }
 
-  /*upnav  */
 .upnav{
   background-color: aqua;
-  padding: 14px 16px;
-  font-size: 17px;
-  
-}
-.botnav{ 
-  background-color: lightgreen;
-  padding: 14px 16px;
-  font-size: 17px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
 
 }
+
+div.upnav a{
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:left;
+ 
+
+}
+
+div.upnav a:hover{
+  background-color: yellowgreen;
+}
+
+.subupnav{
+  float:right;
+}
+
+
+  
+
+
+
+/* default at page */
 .default{
   background-color: gray;
   border: none;
@@ -29,9 +45,71 @@ body {
   margin: 4px 2px;
   cursor: pointer;
 }
+/* personal info */
 .info{
   background-color: aquamarine;
   font-size: 17px;
   color:red;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.info a{
+  text-decoration: none;
+  color:red;
+}
+
+.info a:hover{
+  text-decoration:underline;
+  color:purple;
+}
+
+/* nak */
+div.nak {
+  margin: 5px;
+  border: 1px solid #ccc;
+
+  
+}
+
+div.nak:hover {
+  border: 1px solid #777;
+}
+
+div.nak img {
+  width: 100%;
+  height: 700px;
+}
+
+div.nak pre{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px;
+  color:red;
+
+}
+
+
+/* Product video */
+.video{
+  background-color: antiquewhite;
+  margin:0;
+}
+.video video{
+  width:60%;
+  height:auto;
+}
+
+.video button{
+  color:red;
+  text-align: center;
+  text-decoration: none;
+  padding:40px 45px;
+  left:150px;
+  bottom: 200px;
+  position: relative;
+}
+
+.video button:hover{
+  text-decoration: underline;
+  color:purple;
+
 }
